@@ -51,7 +51,8 @@
   },
   "homepage": "https://github.com/bokuhe/react-native-graceful-exit#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
@@ -107,9 +108,8 @@
       "addUntrackedFiles": true
     },
     "npm": {
-      "publish": true,
-      "access": "public"
-      },
+      "publish": true
+    },
     "github": {
       "release": false
     },
